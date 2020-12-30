@@ -14,7 +14,7 @@ class bcolors:
 
 def bomb():
 	os.system('clear')
-	print bcolors.OKGREEN + '''
+	print (bcolors.OKGREEN + '''
 			 \|/
                        `--+--'
                           |
@@ -34,7 +34,7 @@ def bomb():
                 `._###############_,'
                    `--..#####..--'                                 ,-.--.
 *.______________________________________________________________,' (Bomb)
-                                                                    `--' ''' + bcolors.ENDC
+                                                                    `--' ''' + bcolors.ENDC)
 
 
 os.system('clear')
